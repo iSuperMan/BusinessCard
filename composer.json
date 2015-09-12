@@ -1,6 +1,8 @@
 {
 	"require": {
 		"phpunit/phpunit": "3.7.24",
-		"phing/phing": "dev-master"
+		"phing/phing": "dev-master",
+	  	"mpdf/mpdf": "5.7.4a",
+	  	"seyfer/kohana-mpdf": "dev-master"
 	}
 }

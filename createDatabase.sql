@@ -17,7 +17,7 @@ insert into main (content) value('Symfony — свободный каркас, �
 
 CREATE TABLE IF NOT EXISTS news
 (
-  `title` CHAR(50) NOT NULL ,
+  `title` CHAR(100) NOT NULL ,
   `author` CHAR(50) NOT NULL ,
   `date` DATE NOT NULL,
   `text` LONGTEXT NOT NULL

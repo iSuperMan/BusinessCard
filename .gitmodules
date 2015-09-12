@@ -1,0 +1,3 @@
+[submodule "modules/mpdf"]
+	path = modules/mpdf
+	url = git://github.com/smgladkovskiy/kohana-mpdf.git
