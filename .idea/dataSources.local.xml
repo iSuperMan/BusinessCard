@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - kohana@localhost" uuid="83d5d90b-70af-4f67-85d2-2a3fbd509ba2">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>kohana.*</schema-pattern>
+      <default-schemas>kohana.*</default-schemas>
+    </data-source>
+  </component>
+</project>

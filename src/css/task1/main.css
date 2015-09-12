@@ -1,0 +1,121 @@
+header{
+	font-weight: bold;
+}
+
+nav{
+	margin-top: 50px;
+}
+
+section{
+	margin: 100px 0;
+}
+
+/* main page =============================================================*/
+.tools{
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.tools > .secondTools{
+	display: none;
+}
+
+.tools > .secondTools button:first-child{
+	margin-right: 10px;
+}
+.tools > .secondTools button:last-child{
+	margin-left: 10px;
+}
+
+#textarea{
+	width: 100%;
+	resize: vertical;
+	display: none;
+}
+
+/* news page ===============================================================*/
+#add_news{
+	background: #eeeeee;
+    padding: 20px 30px;
+    border: 1px solid rgba(128, 128, 128, 0.31);
+    border-radius: 4px;
+}
+
+#add_news input{
+	width: 250px;
+	margin: 15px 0;
+}
+
+#add_news .title{
+	font-size: 1.4em;
+}
+
+#news_textarea{
+	width: 73%;
+	height: 130px;
+	float: right;
+	resize: none;
+}
+
+.new{
+	margin: 10px 0;
+}
+
+.new .title{
+	cursor: pointer;
+}
+
+.new .title:hover{
+	border-bottom: 2px dotted black;
+}
+
+.new .title+.glyphicon{
+	font-size: 0.7em;
+}
+
+.new .content .parameters .glyphicon{
+	margin-right: 10px;
+}
+.new .content .parameters{
+	font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+}
+.new .content .parameters > span:first-child{
+	margin-right: 20px;
+}
+
+.new .content{
+	display: none;
+	background: #eee;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+
+.new .text{
+	margin: 10px 0;
+}
+
+/* images gallery */
+
+img{
+	width: 300px;
+	height: 250px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+img:hover{
+	box-shadow: 0 3px 0 gold;
+}
+
+#upload-form{
+	padding: 20px 30px;
+	margin-bottom: 30px;
+	background: #eee;
+	border: 1px solid rgba(128, 128, 128, 0.3);
+	border-radius: 4px;
+}
+
+input{
+	display: inline-block !important;
+}

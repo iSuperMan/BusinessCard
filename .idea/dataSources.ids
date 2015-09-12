@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - kohana@localhost" uuid="83d5d90b-70af-4f67-85d2-2a3fbd509ba2">
+    <database-info product="MySQL" version="5.5.44-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="kohana"/>
+    <table name="gallery" schema="" catalog="kohana" type="TABLE">
+      <column name="img" sqlType="CHAR" precision="200" scale="0" nullable="true" jdbcType="1"/>
+    </table>
+    <table name="main" schema="" catalog="kohana" type="TABLE">
+      <column name="content" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+    </table>
+    <table name="news" schema="" catalog="kohana" type="TABLE">
+      <column name="title" sqlType="CHAR" precision="100" scale="0" nullable="true" jdbcType="1"/>
+      <column name="author" sqlType="CHAR" precision="50" scale="0" nullable="false" jdbcType="1"/>
+      <column name="date" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="text" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+    </table>
+  </data-source>
+</component>
