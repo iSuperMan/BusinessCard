@@ -1,0 +1,89 @@
+body{
+	width: 900px;
+	margin: 0 auto;
+	font-family: Arial;
+}
+table{
+	width: 100%;
+	font-weight: lighter;
+}
+.title{
+	font-size: 1.7em;
+	font-weight: bold;
+}
+header{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+header table th{
+	text-align: left;
+	vertical-align: top;
+	font-weight: lighter;
+}
+.middle th{
+	font-weight: lighter;
+}
+h1{
+	margin-bottom: 0;
+}
+img{
+	float: right;
+	width: 185px;
+}
+ul{
+	vertical-align: top;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.name{
+	color: #4e90c7;
+	font-size: 2.2em;
+	margin-bottom: 25px;
+}
+table.payment{
+	margin-top: 120px;
+	width: 100%;
+}
+table.payment tr th:first-child{
+	width: 50%;
+}
+thead tr{
+	background: #dce9f1;
+}
+table.payment th{
+	padding: 7px 0;
+	text-align: left;
+	color: #4e90c7;
+}
+table.payment td{
+	padding-top: 10px;
+}
+td.nums{
+	/*padding-top: 8px;*/
+	text-align: right;
+	vertical-align: top;
+}
+table.sum{
+	margin-top: 20px;
+}
+table.sum th{
+	font-weight: lighter;
+}
+.price{
+	margin-top: 20px;
+	float: right;
+	font-size: 1.1em;
+}
+#price{
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-left: 300px;
+	position: relative;
+	top: 10px;
+}
+.finish{
+	margin-top: 90px;
+	width: 400px;
+	font-size: .9em;
+}
